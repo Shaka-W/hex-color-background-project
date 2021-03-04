@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+#hex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hex-color {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-click {
+    padding: 1rem;
+    border: none;
+    background: gray;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
